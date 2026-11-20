@@ -3,138 +3,215 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Praveena's personal portfolio - Computer Science student, developer and problem solver." />
-  <title>Praveena | Portfolio</title>
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="description" content="Praveena A is a Computer Science and Engineering student at Sri Eshwar College of Engineering, interested in building practical software." />
+  <title>Praveena A | Computer Science Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="header">
-    <a class="logo" href="#home">P<span>.</span></a>
-    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-    <nav class="nav">
-      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
-      <a href="#achievements">Achievements</a><a class="nav-contact" href="#contact">Contact</a>
+    <a class="logo" href="#home" aria-label="Praveena, home">PA<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="nav" id="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Highlights</a>
+      <a class="nav-contact" href="#contact">Contact</a>
     </nav>
   </header>
 
   <main>
     <section class="hero section" id="home">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="pulse"></span> COMPUTER SCIENCE STUDENT</p>
-        <h1>Hi, I'm <span>Praveena.</span><br> I build useful things with code.</h1>
-        <p class="hero-text">A curious Computer Science and Engineering student interested in software development, data analytics and emerging technologies. I enjoy turning ideas into practical solutions.</p>
+        <p class="eyebrow"><span class="status-dot"></span> CSE STUDENT · COIMBATORE, INDIA</p>
+        <h1>Hi, I'm Praveena.<br><span>I like making useful things.</span></h1>
+        <p class="hero-text">I'm pursuing a B.E. in Computer Science and Engineering at Sri Eshwar College of Engineering. I enjoy building software projects, solving problems and learning by doing.</p>
         <div class="hero-actions">
-          <a class="button primary" href="#projects">Explore my work <span>↗</span></a>
-          <a class="button secondary" href="#contact">Let's connect</a>
+          <a class="button primary" href="#projects">See my projects <span aria-hidden="true">↗</span></a>
+          <a class="button secondary" href="#contact">Get in touch</a>
         </div>
         <div class="socials">
-          <!-- Replace # with your profile URLs -->
-          <a href="#" aria-label="GitHub profile">GitHub ↗</a>
-          <a href="#" aria-label="LinkedIn profile">LinkedIn ↗</a>
+          <a href="https://github.com/praveenaa2025cse-bot" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="tel:+917695990117">+91 76959 90117</a>
         </div>
       </div>
-      <div class="hero-art" aria-label="Decorative code illustration">
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <div class="code-card">
-          <div class="code-top"><i></i><i></i><i></i><span>developer.java</span></div>
-          <pre><span class="purple">public class</span> <span class="blue">Developer</span> {
-  String name = <span class="green">"Praveena"</span>;
-  String focus = <span class="green">"Learning & building"</span>;
-
-  <span class="purple">void</span> create() {
-    solveProblems();
-    keepLearning();
-    <span class="blue">buildProjects</span>();
-  }
-}</pre>
-        </div>
-        <div class="float-tag tag-one">✦ Curious mind</div>
-        <div class="float-tag tag-two">⌘ Java · Python · SQL</div>
-      </div>
+      <aside class="hero-note" aria-label="Academic highlight">
+        <p class="note-label">CURRENT CGPA</p>
+        <p class="cgpa">8.5<span> / 10</span></p>
+        <p class="note-caption">B.E. Computer Science &amp; Engineering<br>Through 2nd semester</p>
+        <div class="note-divider"></div>
+        <p class="note-label">CURRENTLY LEARNING</p>
+        <p class="learning">Java · Spring Boot · Data Structures</p>
+      </aside>
     </section>
 
-    <section class="section about" id="about">
-      <div class="section-label">01 / ABOUT ME</div>
-      <div>
-        <h2>Learning today.<br><span>Building for tomorrow.</span></h2>
-        <p>I'm pursuing a B.E. in Computer Science and Engineering at Sri Eshwar College of Engineering. I’m developing my skills in programming, databases and application development through coursework, projects and hackathons.</p>
-        <p>I like exploring how technology can solve real-world problems, and I'm always looking for opportunities to learn, collaborate and improve.</p>
-        <div class="about-facts">
-          <div><strong>CSE</strong><span>Degree</span></div>
-          <div><strong>Java · Python</strong><span>Core interests</span></div>
-          <div><strong>Project-driven</strong><span>Learning approach</span></div>
+    <section class="section about section-bordered" id="about">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="about-content">
+        <h2>Curious by nature.<br><span>Practical by approach.</span></h2>
+        <p>I'm a Computer Science student with a foundation in Java, Python, SQL and web technologies. I like working on ideas that solve real problems, from managing OPD tokens to sharing emergency messages without internet access.</p>
+        <p>Outside projects, I spend time solving coding problems and taking part in hackathons. I'm keen to keep learning, contribute to a team and grow as a software developer.</p>
+        <div class="quick-facts">
+          <div><strong>8.5 / 10</strong><span>Current CGPA</span></div>
+          <div><strong>97%</strong><span>HSC</span></div>
+          <div><strong>1,100+</strong><span>SkillRack problems</span></div>
         </div>
       </div>
     </section>
 
-    <section class="section" id="skills">
-      <div class="section-label">02 / SKILLS</div>
-      <div class="section-heading"><h2>Tools I work with</h2><p>Technologies I'm learning and using to build projects.</p></div>
-      <div class="skill-grid">
-        <article class="skill-card"><span class="skill-icon">⌨</span><h3>Programming</h3><p>Java · Python · C++</p></article>
-        <article class="skill-card"><span class="skill-icon">▤</span><h3>Web development</h3><p>HTML · CSS · JavaScript</p></article>
-        <article class="skill-card"><span class="skill-icon">◫</span><h3>Backend & database</h3><p>Spring Boot · MySQL · SQL</p></article>
-        <article class="skill-card"><span class="skill-icon">⌘</span><h3>Tools</h3><p>Git · GitHub · VS Code · Postman</p></article>
-        <article class="skill-card"><span class="skill-icon">◌</span><h3>Areas of interest</h3><p>Data Analytics · AI/ML · Software Development</p></article>
-      </div>
-    </section>
-
-    <section class="section projects" id="projects">
-      <div class="section-label">03 / PROJECTS</div>
-      <div class="section-heading"><h2>Things I've been building</h2><p>A selection of academic and problem-solving projects.</p></div>
-      <div class="project-grid">
-        <article class="project-card">
-          <div class="project-number">01</div><div class="project-mark">⌁</div>
-          <h3>Smart Fleet Monitoring System</h3>
-          <p>A web-based system concept for organizing vehicle, driver, trip, fuel and maintenance information with a dashboard.</p>
-          <div class="tags"><span>Java</span><span>Spring Boot</span><span>MySQL</span></div>
-          <a href="#" class="project-link">Project link to be added ↗</a>
-        </article>
-        <article class="project-card">
-          <div class="project-number">02</div><div class="project-mark">◎</div>
-          <h3>DisasterMesh</h3>
-          <p>An offline-first emergency communication concept that helps devices relay SOS messages and location information during disasters.</p>
-          <div class="tags"><span>Flutter</span><span>Dart</span><span>SQLite</span></div>
-          <a href="#" class="project-link">Project link to be added ↗</a>
-        </article>
-        <article class="project-card">
-          <div class="project-number">03</div><div class="project-mark">✳</div>
-          <h3>EcoWell Awareness Portal</h3>
-          <p>An awareness portal concept with learning content, quizzes and pledges to encourage environmentally responsible habits.</p>
-          <div class="tags"><span>React</span><span>Python</span><span>MongoDB</span></div>
-          <a href="#" class="project-link">Project link to be added ↗</a>
-        </article>
-      </div>
-    </section>
-
-    <section class="section achievements" id="achievements">
-      <div class="section-label">04 / ACHIEVEMENTS</div>
-      <div><h2>Milestones that keep me going.</h2>
-        <div class="achievement-list">
-          <div><span class="award">✦</span><div><h3>1st Prize — College Python Hackathon</h3><p>Recognized for problem-solving and implementation.</p></div></div>
-          <div><span class="award">✦</span><div><h3>Adobe Hackathon — Advanced to Round 2</h3><p>Participated in a competitive problem-solving challenge.</p></div></div>
-          <div><span class="award">✦</span><div><h3>Hackathon participation</h3><p>Participated in events including Rathinam College and HackFusion.</p></div></div>
+    <section class="section section-bordered" id="education">
+      <div class="section-label">02 / EDUCATION</div>
+      <div class="section-main">
+        <div class="section-heading">
+          <h2>What I'm studying</h2>
+          <p>Building a strong foundation, one semester at a time.</p>
+        </div>
+        <div class="education-list">
+          <article class="education-card">
+            <div class="education-date">2025 — 2029</div>
+            <div class="education-details">
+              <h3>Sri Eshwar College of Engineering</h3>
+              <p>B.E. Computer Science and Engineering</p>
+            </div>
+            <div class="education-result"><strong>8.5 / 10</strong><span>CGPA · through 2nd semester</span></div>
+          </article>
+          <article class="education-card">
+            <div class="education-date">2024 — 2025</div>
+            <div class="education-details">
+              <h3>Ponnu Matric Higher Secondary School</h3>
+              <p>Higher Secondary Certificate (HSC)</p>
+            </div>
+            <div class="education-result"><strong>97%</strong><span>HSC</span></div>
+          </article>
+          <article class="education-card">
+            <div class="education-date">2022 — 2023</div>
+            <div class="education-details">
+              <h3>MSN Higher Secondary School</h3>
+              <p>Secondary School Leaving Certificate (SSLC)</p>
+            </div>
+            <div class="education-result"><strong>91%</strong><span>SSLC</span></div>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="contact section" id="contact">
-      <div class="section-label">05 / CONTACT</div>
+    <section class="section section-bordered" id="skills">
+      <div class="section-label">03 / SKILLS</div>
+      <div class="section-main">
+        <div class="section-heading">
+          <h2>Tools of the trade</h2>
+          <p>Technologies and concepts I've worked with in coursework and projects.</p>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card"><h3>Programming</h3><p>Java, Python, C, C++, SQL</p></article>
+          <article class="skill-card"><h3>Web</h3><p>HTML, CSS, JavaScript</p></article>
+          <article class="skill-card"><h3>Backend</h3><p>Spring Boot, REST APIs</p></article>
+          <article class="skill-card"><h3>Databases</h3><p>MySQL, MongoDB, SQLite</p></article>
+          <article class="skill-card"><h3>Foundations</h3><p>Object-oriented programming, data structures</p></article>
+          <article class="skill-card"><h3>Tools</h3><p>Git, GitHub, VS Code, Postman</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-bordered" id="projects">
+      <div class="section-label">04 / PROJECTS</div>
+      <div class="section-main">
+        <div class="section-heading">
+          <h2>Projects I've worked on</h2>
+          <p>Academic and hackathon projects focused on practical problems.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-topline"><span>01</span><span class="project-type">Web application</span></div>
+            <h3>Smart Fleet Management System</h3>
+            <p>A web app concept for organizing vehicles, drivers, trips, fuel and maintenance in one place.</p>
+            <p class="project-detail">Includes vehicle and trip status tracking, with data managed through a Spring Boot backend.</p>
+            <div class="tags"><span>Java</span><span>Spring Boot</span><span>MySQL</span><span>HTML · CSS · JS</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-topline"><span>02</span><span class="project-type">Healthcare</span></div>
+            <h3>QueueEase — OPD Token Management</h3>
+            <p>A token management system concept for organizing doctors, patients and outpatient queues.</p>
+            <p class="project-detail">Designed around sequential token generation, priority handling and department-wise queues.</p>
+            <div class="tags"><span>Java</span><span>Spring Boot</span><span>MySQL</span><span>REST API</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-topline"><span>03</span><span class="project-type">Emergency communication</span></div>
+            <h3>DisasterMesh</h3>
+            <p>An offline-first communication concept for sharing emergency messages and location details during disasters.</p>
+            <p class="project-detail">Explores relaying messages between nearby devices when an internet connection is unavailable.</p>
+            <div class="tags"><span>Flutter</span><span>Dart</span><span>SQLite</span><span>Bluetooth · GPS</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-topline"><span>04</span><span class="project-type">Personal safety</span></div>
+            <h3>SilentSOS</h3>
+            <p>A discreet emergency alert system concept for situations where making a visible or audible call is difficult.</p>
+            <p class="project-detail">Focused on a simple alert flow and sharing essential emergency information.</p>
+            <div class="tags"><span>Mobile</span><span>Emergency alerts</span><span>Safety UI</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-bordered" id="experience">
+      <div class="section-label">05 / HIGHLIGHTS</div>
+      <div class="section-main highlight-grid">
+        <div>
+          <div class="section-heading">
+            <h2>Hackathons &amp; achievements</h2>
+            <p>Each event has been a chance to learn and build with others.</p>
+          </div>
+          <ul class="highlight-list">
+            <li><strong>1st Prize</strong><span>Python Hackathon, Sri Eshwar College of Engineering</span></li>
+            <li><strong>Round 2</strong><span>Adobe Hackathon</span></li>
+            <li><strong>Top 150 teams</strong><span>Hackathon at Rathinam Global University</span></li>
+            <li><strong>Participant</strong><span>Machine Learning Hackathon</span></li>
+            <li><strong>Participant</strong><span>HackFusion Hackathon</span></li>
+          </ul>
+        </div>
+        <div class="credentials">
+          <div class="section-heading">
+            <h2>Certifications</h2>
+            <p>Courses completed alongside my degree.</p>
+          </div>
+          <ul class="certification-list">
+            <li>Mastering Data Structures and Algorithms using C and C++ <span>Udemy</span></li>
+            <li>C Programming Course <span>NPTEL</span></li>
+            <li>The Joy of Computing Using Python <span>NPTEL</span></li>
+            <li>Design Thinking <span>NPTEL</span></li>
+          </ul>
+          <div class="coding-profiles">
+            <h3>Coding practice</h3>
+            <p><strong>150+</strong> CodeChef <span>·</span> <strong>100+</strong> LeetCode <span>·</span> <strong>1,100+</strong> SkillRack problems solved</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-label">06 / CONTACT</div>
       <div class="contact-panel">
-        <p class="eyebrow">HAVE A PROJECT OR OPPORTUNITY?</p>
-        <h2>Let's make something<br><span>meaningful together.</span></h2>
-        <p>I'm open to learning opportunities, collaborations and conversations about technology.</p>
-        <!-- Replace the email address below with your preferred professional email -->
-        <a class="button primary" href="mailto:your.email@example.com">Email me ↗</a>
-        <div class="contact-small">your.email@example.com · GitHub · LinkedIn <small>(Update these details before publishing)</small></div>
+        <p class="eyebrow">HAVE AN OPPORTUNITY OR AN IDEA?</p>
+        <h2>Let's talk.</h2>
+        <p>I'm open to learning opportunities, collaborations and conversations about software.</p>
+        <div class="contact-links">
+          <a class="button primary" href="tel:+917695990117">Call +91 76959 90117 <span aria-hidden="true">↗</span></a>
+          <a class="button secondary" href="https://github.com/praveenaa2025cse-bot" target="_blank" rel="noopener noreferrer">Find me on GitHub <span aria-hidden="true">↗</span></a>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer><a class="logo" href="#home">P<span>.</span></a><p>Designed & built with curiosity. © <span id="year"></span> Praveena</p><a href="#home">Back to top ↑</a></footer>
+  <footer>
+    <a class="logo" href="#home">PA<span>.</span></a>
+    <p>Made by Praveena · <span id="year"></span></p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
