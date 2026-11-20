@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Praveena's personal portfolio - Computer Science student, developer and problem solver." />
+  <title>Praveena | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#home">P<span>.</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a><a class="nav-contact" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> COMPUTER SCIENCE STUDENT</p>
+        <h1>Hi, I'm <span>Praveena.</span><br> I build useful things with code.</h1>
+        <p class="hero-text">A curious Computer Science and Engineering student interested in software development, data analytics and emerging technologies. I enjoy turning ideas into practical solutions.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button secondary" href="#contact">Let's connect</a>
+        </div>
+        <div class="socials">
+          <!-- Replace # with your profile URLs -->
+          <a href="#" aria-label="GitHub profile">GitHub ↗</a>
+          <a href="#" aria-label="LinkedIn profile">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative code illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="code-top"><i></i><i></i><i></i><span>developer.java</span></div>
+          <pre><span class="purple">public class</span> <span class="blue">Developer</span> {
+  String name = <span class="green">"Praveena"</span>;
+  String focus = <span class="green">"Learning & building"</span>;
+
+  <span class="purple">void</span> create() {
+    solveProblems();
+    keepLearning();
+    <span class="blue">buildProjects</span>();
+  }
+}</pre>
+        </div>
+        <div class="float-tag tag-one">✦ Curious mind</div>
+        <div class="float-tag tag-two">⌘ Java · Python · SQL</div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-label">01 / ABOUT ME</div>
+      <div>
+        <h2>Learning today.<br><span>Building for tomorrow.</span></h2>
+        <p>I'm pursuing a B.E. in Computer Science and Engineering at Sri Eshwar College of Engineering. I’m developing my skills in programming, databases and application development through coursework, projects and hackathons.</p>
+        <p>I like exploring how technology can solve real-world problems, and I'm always looking for opportunities to learn, collaborate and improve.</p>
+        <div class="about-facts">
+          <div><strong>CSE</strong><span>Degree</span></div>
+          <div><strong>Java · Python</strong><span>Core interests</span></div>
+          <div><strong>Project-driven</strong><span>Learning approach</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-label">02 / SKILLS</div>
+      <div class="section-heading"><h2>Tools I work with</h2><p>Technologies I'm learning and using to build projects.</p></div>
+      <div class="skill-grid">
+        <article class="skill-card"><span class="skill-icon">⌨</span><h3>Programming</h3><p>Java · Python · C++</p></article>
+        <article class="skill-card"><span class="skill-icon">▤</span><h3>Web development</h3><p>HTML · CSS · JavaScript</p></article>
+        <article class="skill-card"><span class="skill-icon">◫</span><h3>Backend & database</h3><p>Spring Boot · MySQL · SQL</p></article>
+        <article class="skill-card"><span class="skill-icon">⌘</span><h3>Tools</h3><p>Git · GitHub · VS Code · Postman</p></article>
+        <article class="skill-card"><span class="skill-icon">◌</span><h3>Areas of interest</h3><p>Data Analytics · AI/ML · Software Development</p></article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-label">03 / PROJECTS</div>
+      <div class="section-heading"><h2>Things I've been building</h2><p>A selection of academic and problem-solving projects.</p></div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-number">01</div><div class="project-mark">⌁</div>
+          <h3>Smart Fleet Monitoring System</h3>
+          <p>A web-based system concept for organizing vehicle, driver, trip, fuel and maintenance information with a dashboard.</p>
+          <div class="tags"><span>Java</span><span>Spring Boot</span><span>MySQL</span></div>
+          <a href="#" class="project-link">Project link to be added ↗</a>
+        </article>
+        <article class="project-card">
+          <div class="project-number">02</div><div class="project-mark">◎</div>
+          <h3>DisasterMesh</h3>
+          <p>An offline-first emergency communication concept that helps devices relay SOS messages and location information during disasters.</p>
+          <div class="tags"><span>Flutter</span><span>Dart</span><span>SQLite</span></div>
+          <a href="#" class="project-link">Project link to be added ↗</a>
+        </article>
+        <article class="project-card">
+          <div class="project-number">03</div><div class="project-mark">✳</div>
+          <h3>EcoWell Awareness Portal</h3>
+          <p>An awareness portal concept with learning content, quizzes and pledges to encourage environmentally responsible habits.</p>
+          <div class="tags"><span>React</span><span>Python</span><span>MongoDB</span></div>
+          <a href="#" class="project-link">Project link to be added ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section achievements" id="achievements">
+      <div class="section-label">04 / ACHIEVEMENTS</div>
+      <div><h2>Milestones that keep me going.</h2>
+        <div class="achievement-list">
+          <div><span class="award">✦</span><div><h3>1st Prize — College Python Hackathon</h3><p>Recognized for problem-solving and implementation.</p></div></div>
+          <div><span class="award">✦</span><div><h3>Adobe Hackathon — Advanced to Round 2</h3><p>Participated in a competitive problem-solving challenge.</p></div></div>
+          <div><span class="award">✦</span><div><h3>Hackathon participation</h3><p>Participated in events including Rathinam College and HackFusion.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-label">05 / CONTACT</div>
+      <div class="contact-panel">
+        <p class="eyebrow">HAVE A PROJECT OR OPPORTUNITY?</p>
+        <h2>Let's make something<br><span>meaningful together.</span></h2>
+        <p>I'm open to learning opportunities, collaborations and conversations about technology.</p>
+        <!-- Replace the email address below with your preferred professional email -->
+        <a class="button primary" href="mailto:your.email@example.com">Email me ↗</a>
+        <div class="contact-small">your.email@example.com · GitHub · LinkedIn <small>(Update these details before publishing)</small></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="logo" href="#home">P<span>.</span></a><p>Designed & built with curiosity. © <span id="year"></span> Praveena</p><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
